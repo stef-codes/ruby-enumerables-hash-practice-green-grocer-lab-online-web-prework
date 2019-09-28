@@ -42,4 +42,5 @@ def checkout(cart,coupons)
   total = applied_discount.reduce(0)
   
   
+  
 end
