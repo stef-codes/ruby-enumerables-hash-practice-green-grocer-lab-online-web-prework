@@ -42,6 +42,7 @@ def checkout(cart,coupons)
   total = applied_discount.reduce(0) {
     |acc, (key,value)| 
     acc += value[:price]*value[:count]
+    
   }
   
   
